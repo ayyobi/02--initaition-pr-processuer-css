@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: "Inter";
+}
+
+.main-container {
+  width: 98%;
+  max-width: 1200px;
+  margin: 5%;
+}
+
+.header #logo {
+  font-family: "Gravitas One", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  color: #333333;
+}
+.header .nav a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+  color: #333333;
+  display: none;
+}
+
+.container {
+  color: #333333;
+}
+.container img {
+  max-width: 793px;
+  max-height: 424px;
+  width: 90%;
+}
+.container h1 {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+}
+.container button {
+  border-radius: 50px;
+  width: 202px;
+  height: 53px;
+  font-size: 17px;
+  color: #F1DEDE;
+  background: #BBACC1;
+  border: none;
+  text-transform: uppercase;
+}
+.container p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+.container .disc {
+  max-width: 790px;
+  width: 90%;
+}
+
+.aside {
+  background: #333333;
+  line-height: 25px;
+  box-sizing: border-box;
+  max-width: 890px;
+  width: 90%;
+  padding: 6%;
+}
+.aside h2 {
+  color: #BBACC1;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 60px;
+}
+.aside h3 {
+  color: #F1DEDE;
+}
+.aside p {
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.aside .part {
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.pere .info {
+  max-width: 338px;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  margin: 10% 0;
+}
+.pere .info img {
+  padding: 15%;
+}
+.pere .info p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 6% 0;
+}
+.pere .info #lorem {
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 45px;
+  color: #BBACC1;
+}
+.pere .info #number {
+  font-weight: 900;
+  font-size: 31px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 900px) {
+  .disc {
+    display: flex;
+  }
+  .disc p {
+    margin-top: 7%;
+  }
+  .pere {
+    display: flex;
+    flex-direction: row;
+  }
+  .pere .info {
+    margin: 50px 10px 0 10px;
+  }
+  .aside {
+    max-width: 387px;
+  }
+  .big {
+    display: flex;
+  }
+}/*# sourceMappingURL=style1.css.map */

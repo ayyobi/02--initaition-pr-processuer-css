@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: 'Inter';
+  }
+  .main-container{
+      width: 98%;
+      max-width:1200px;
+      margin: 5%;
+  }
+  .header{
+      #logo{
+          
+          font-family: 'Gravitas One', cursive;
+          font-weight: 400;
+          font-size: 60px;
+          color: #333333;
+   
+      }
+      .nav{
+              a{
+                  text-decoration: none;
+                  font-weight: 400;
+                  font-size: 17px;
+                  color: #333333;
+                  display: none;
+              }
+      }
+  }
+  .container{
+      color: #333333;
+      img{
+        max-width:793px ;
+        max-height:424px ;
+        width:90% ;
+      }
+      h1{
+          font-weight: 900;
+          font-size: 60px;
+          line-height: 60px;
+      }
+      button{
+          border-radius: 50px;
+          width: 202px;
+          height: 53px;
+          font-size: 17px;
+          color: #F1DEDE;
+          background: #BBACC1;
+          border: none;
+          text-transform: uppercase;
+      }
+      p{
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+      }
+      .disc{
+        max-width:790px ;
+        width: 90%;
+      }
+  }
+  .aside{
+      background: #333333;
+      line-height: 25px;
+      box-sizing: border-box;
+      max-width:890px;
+      width: 90%;
+      padding: 6%;
+
+  
+      h2{
+          color: #BBACC1;
+          font-weight: 900;
+          font-size: 40px;
+          line-height: 60px;
+      }
+      h3{
+          color: #F1DEDE;
+      }
+      p{
+          font-weight: 400;
+          color: #FFFFFF;
+      }
+      .part{
+          border-bottom:2px solid #FFFFFF;
+      }
+  }
+  .pere{
+      .info{
+        max-width: 338px;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        margin:10% 0;
+           img{
+             padding: 15%;
+           }
+          p{
+              font-weight: 400;
+              font-size: 15px;
+              line-height: 25px;
+              padding: 6% 0; 
+          }
+          #lorem{
+            font-weight: 900;
+            font-size: 19px;
+            line-height: 45px;
+            color: #BBACC1;
+        }
+        #number{
+            font-weight: 900;
+            font-size: 31px;
+            line-height: 25px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+      }
+  }
+
+  @media (min-width: 900px) {
+    .disc{
+        display: flex;
+        p{
+            margin-top: 7% ;
+        }
+    }
+    .pere{
+         display:flex;
+         flex-direction: row;
+         .info{
+            margin: 50px 10px 0 10px;
+         }
+    }
+    .aside{
+        max-width:387px;
+    }
+    .big{
+        display: flex;
+    }
+    
+}
